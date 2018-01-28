@@ -51,7 +51,15 @@ write your code here
 	#about .box {                          
 		border-top: 0 !important;
 		border-left: 0 !important;
+    }
+    
+    section #about .box:nth-child(-n+3) {
+		border-top: 1px solid silver !important;
 	}
+
+	section #about .box:nth-child(3n+1) {
+    border-left: 1px solid silver !important;
+    }
 
     /*Task №3*/
     p:first-letter { 
