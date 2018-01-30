@@ -1,0 +1,85 @@
+body {
+  font-size: 17px;
+  width: 100%;
+  height: 100%;
+  background-color: #dcbb9a; }
+
+#content {
+  padding: 5px 15px 0px 15px;
+  width: 1000px;
+  background-color: white;
+  margin: auto; }
+  #content h1 {
+    text-align: center;
+    color: #893c00;
+    text-transform: capitalize; }
+  #content h2 {
+    color: #893c00; }
+  #content p {
+    color: black; }
+  #content .img-left {
+    float: left;
+    margin: 0px 15px 10px 0px;
+    border: 2px solid #893c00;
+    padding: 2px; }
+  #content .brief {
+    display: flex;
+    width: 400px;
+    float: left;
+    background-color: #fadcba;
+    margin: 0px 15px 10px 0px;
+    padding: 20px 20px 20px 20px; }
+  #content .img-right {
+    float: right;
+    margin: 0px 0px 15px 15px;
+    border: 2px solid #893c00;
+    padding: 2px; }
+  #content a {
+    color: #3d70a1; }
+  #content table {
+    width: 920px; }
+    #content table caption {
+      text-align: right; }
+    #content table th {
+      background-color: #e0e0e0;
+      height: 40px;
+      font-weight: normal;
+      text-transform: uppercase;
+      text-align: left;
+      padding-left: 15px; }
+    #content table td {
+      height: 40px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+      background-color: #ffffff;
+      padding-left: 15px;
+      color: black; }
+  #content form input, #content form textarea {
+    border: 1px solid #e0e0e0;
+    padding: 5px; }
+  #content form .box {
+    margin-bottom: 20px; }
+  #content form p {
+    text-transform: uppercase;
+    margin: 0px;
+    color: #808080; }
+  #content form .nameholder {
+    display: flex;
+    flex-direction: row; }
+    #content form .nameholder .name-comtainer {
+      margin-right: 10px; }
+    #content form .nameholder input {
+      width: 483px; }
+  #content form .form-data {
+    width: 990px; }
+  #content form .submit-btn {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #3d70a1;
+    background-color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3d70a1;
+    margin-bottom: 30px; }
+
+/*# sourceMappingURL=style1.css.map */

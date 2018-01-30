@@ -1,0 +1,125 @@
+@mixin upcase {
+    text-transform: uppercase;
+}
+
+body{
+
+   font-size: 17px;
+   width:100%;
+   height:100%;
+   background-color:$bodybckgr;
+   
+}
+
+#content{
+    padding:5px 15px 0px 15px;
+    width:1000px;
+    background-color:$contentbckgr;
+    margin: auto;
+
+    h1{
+        text-align: center;
+        color:$hcolor;
+        text-transform:$ttrans;   
+    }
+    h2{
+        color:$hcolor;
+    }
+    p{
+        color:$pcolor;
+    }
+    .img-left{
+        float:left;
+        margin: 0px 15px 10px 0px;
+        border: 2px solid $hcolor;
+        padding: 2px;
+    }
+    .brief{
+        display:flex;
+        width:$briefwidth;
+        float:left;
+        background-color: $briefcolor;
+        margin: 0px 15px 10px 0px;
+        padding:20px 20px 20px 20px;
+    }
+
+
+    .img-right{
+        float:right;
+        margin: 0px 0px 15px 15px;
+        border: 2px solid $hcolor;
+        padding: 2px;
+    }
+    a{
+        color:$linccolor;
+    }
+
+
+    table{
+        width: 920px;
+        caption{
+            text-align: right;
+        }
+        th{
+            background-color: $thbrcolor;
+            height:40px;
+            font-weight: normal;
+            @include upcase;
+            text-align: left;
+            padding-left:15px;
+        }
+        td{
+            height:40px;
+            text-align: left;
+            border-bottom:1px solid #e0e0e0;
+            background-color: $tdbrcolor;
+            padding-left:15px;
+            color:$tdcolor; 
+        }
+    }
+    
+    form{
+        input, textarea {
+            border: 1px solid #e0e0e0;
+            padding:5px;
+            
+        }
+        .box{
+            margin-bottom:20px;
+        }
+        p{
+            @include upcase;
+            margin:0px;
+            color:$formhcolor;
+        }
+        .nameholder{
+            display: flex;
+            flex-direction: row;
+            .name-comtainer{
+                margin-right:10px;
+            }
+            input{
+                width:483px;
+            }
+        }
+        .form-data{
+            width:990px;
+        }
+        .submit-btn{
+            width:250px;
+            height:50px;
+            border:1px solid $btcolor;
+            background-color: $btbrcolor;
+            font-size: 20px;
+            @include upcase;
+            color:$btcolor;
+            margin-bottom:30px;
+        }
+    }
+
+
+
+
+
+}
+
