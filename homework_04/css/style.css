@@ -1,0 +1,366 @@
+body{ 
+
+    background-color: #F3F3F3;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    max-width:100%;
+}
+a{
+	text-decoration: none;
+}
+
+button {
+    border:0;
+  }
+
+/*****header*******/
+
+header{
+    background-image: url('../img/apples.jpg');
+    margin:0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:1300px;
+    height:602px;
+    margin-bottom: 0;
+}
+
+.topline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:900px;
+    margin:0 auto;
+    padding-top:30px;
+}
+
+sup{
+    font-size: 18px;
+    letter-spacing: 1px; 
+}
+
+.logoname{
+    color:white;
+    font-size: 13px;
+    letter-spacing: 3px;
+ 
+}
+
+.topline nav a{
+    color:white;
+    margin-left:25px;
+    font-size: 14px;
+    padding:10px;
+}
+nav :first-child{
+    border-bottom:1px solid white;
+}
+nav a:hover{
+    border-bottom:1px solid white;
+}
+
+.mainlogo{
+    margin: 0 auto;
+    width:600px;
+    text-align: center;
+    color:white;
+    padding-top:190px;
+}
+
+.mainlogo sup{
+    font-size: 18px;
+    letter-spacing: 1px; 
+}
+
+.mainlogo h1{
+    letter-spacing: 14px;
+    font-weight: 100;
+    font-size: 35px;
+}
+.mainlogo p{
+    font-size: 14px;
+}
+.mainlogo span{
+    font-size: 80px;
+    font-family: serif;
+}
+
+.mainlogo a{
+    display: block;
+    margin:0 auto;
+    line-height: 40px;;
+    width:180px;
+    height:40px;
+    border:1px solid white;
+    background-color: #343638;
+    color:white;
+    margin-top:140px;
+}
+.mainlogo a:hover{
+    background-color: black;
+
+}
+/*************maininfo****************/
+
+.maininfo{
+    width:1300px;
+    margin:0 auto;
+    background-color: #F3F3F3;
+    margin-top:0;
+}
+
+.ipsum{
+    width:100%;
+    margin:0 auto;
+    background-color: white;
+}
+
+.ipsumholder{
+    width:900px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    padding:100px;
+}
+
+.ipsumholder div{
+    width:500px;
+}
+
+.hdfrase p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top:0px;
+}
+
+.hdescribe p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 15px;
+}
+
+
+
+/***********grit************/
+.featart h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 21px;
+    padding:60px 0px 40px 0px;
+}
+
+.featart{
+    padding-top:80px;
+    width:900px;
+    margin:0 auto;
+
+}
+.wrapper {
+    width:100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: [col] 290px [col] 290px [col] 290px;
+    grid-template-rows: [row] 290px [row] 290px;
+    color: #444;
+    margin-bottom:80px;
+}
+
+.box {
+    color: #fff;
+    box-shadow: 0 -180px 180px -150px black inset;
+    padding: 20px;
+}
+
+.a {
+    background-image: url('../img/sample.jpg');
+    background-size: cover;
+    grid-column: col / span 2;
+    grid-row: row ;
+    position: relative;
+}
+
+.b {
+    background-image: url('../img/sample2.jpg');
+    background-size: cover;
+    grid-column: col 3 / span 1 ;
+    grid-row: row ;
+    position: relative;
+}
+.c {
+    background-image: url('../img/sample2.jpg');
+    background-size: cover;
+    grid-column: col ;
+    grid-row: row 2 ;
+    position: relative;
+}
+.d {
+    background-image: url('../img/sample3.jpg');
+    background-size: cover;
+    grid-column: col 2 / span 2 ;
+    grid-row: row 2 ;
+    position: relative;
+}
+ 
+.like{
+    background-color: #6d6e6e;
+    border:1px solid white;
+    width:50px;
+    height:30px;
+    font-size: 13px;
+    align-content: center;
+    line-height: 0.5em;
+    padding-left:10px;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.fotodesc{
+    position: absolute;
+    bottom:20px;
+    left: 20px; 
+}
+/*********newsletter**********/
+
+.newsletter{
+    width:900px;
+    height: 150px;
+    background-color: white;
+    margin:0 auto;
+    margin-bottom:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsletter p {
+    font-size: 18px;
+}
+.newsletter input{
+    margin:0px;
+    width:300px;
+    height:40px;
+    margin-left:40px;
+    border:1px solid black;
+    background-color:#F3F3F3;
+    margin-right: -8px;
+}
+
+input[type="email"]::placeholder {
+     color: black; 
+    } 
+    
+.newsletter  button{
+    margin:0px;
+    width:100px;
+    height:44px;
+    background-color: #343638;
+    color:#F3F3F3;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: black;
+}
+/**********info****************/
+.info{
+    padding-top:100px;
+    width:100%;
+    background-color: white;
+}
+.contacts{
+    margin:0 auto;    
+    width:900px;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:100px;
+    
+}
+.contacts div{
+    width:160px;
+}
+
+.info .newslet{
+    width:230px;
+}
+
+
+.info h2{
+    font-size:14px;
+    font-weight: 700;
+}
+.info p{
+    text-align: justify;
+    font-size: 13px;
+    color:#A4A4A4;
+    line-height: 1.5em;
+}
+.info input{
+    margin:0px;
+    width:130px;
+    height:25px;
+    border:1px solid black;
+    background-color:#F3F3F3;
+}
+
+.info input[type="email"]::placeholder {
+     color: #A4A4A4; 
+     font-size: 10px;
+     font-style: italic;
+    } 
+    
+.info button{
+    width:70px;
+    height:25px;
+    background-color: #343638;
+    color:#F3F3F3;
+    font-size: 10px;
+    margin-left:-5px;
+    padding:10px 0px 19px 0px;
+    cursor: pointer;
+}
+
+
+.tweet p:first-of-type{
+    font-style: italic;
+}
+.contact p{
+    line-height: 2em
+}
+/*****************foooter**************************/
+footer{
+    width:1300px;
+    background-color: white;
+    margin:0 auto;
+    margin-top:-8px;
+
+}
+
+footer div{
+    width: 900px;
+    border-top:1px solid #A4A4A4;
+    margin:0 auto;
+    padding:30px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color:#A4A4A4;
+    font-size:13px;
+
+}
+footer li{
+    display:inline-block;
+    color:#343638;
+    font-size:13px;
+    padding-right:30px;
+}
+
+footer li :hover{
+    border-bottom:1px solid #343638;
+}
+
+footer a{
+    color:#343638;
+}
