@@ -1,0 +1,9 @@
+/* Your styles goes here */
+
+i,li{
+  vertical-align: middle;
+  line-height: 20px;
+}
+i{
+    margin-bottom:5px;
+}
