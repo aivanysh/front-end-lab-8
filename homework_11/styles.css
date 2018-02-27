@@ -7,3 +7,6 @@ i,li{
 i{
     margin-bottom:5px;
 }
+li:hover{
+  cursor: pointer;
+}
