@@ -1,0 +1,87 @@
+/* Your styles goes here */
+
+body{
+    background-color: #1F1F20;
+    font-family: serif;
+}
+h1,h2,h3{
+    color:#A49E8B;
+}
+p,td{
+    color:#A49E8B;
+}
+td{
+    padding:5px 5px 5px 10px;
+}
+
+/*****main page*****/
+.tanklist{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.tanklistel{
+    width:16%;
+}
+.tanklistel:hover{
+    background-color: #2F2F2F;
+}
+
+
+.tanknameel{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tanknameel p{
+    display:inline-block;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    max-width: 70%;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: white;
+}
+.tanknameel>img{
+    height: 1em;
+    width:1.5em;
+}
+
+.tanklistel>img{
+    width:100%;
+}
+
+/*************details****************/
+.detheader h1{
+    display:inline-block;
+}
+.detheader h1 span{
+    text-transform: uppercase; 
+}
+.tankinfo{
+    display:flex;
+
+}
+.tankinfo img{
+    width:100%
+}
+.btankpreview{
+    width:50%;
+
+}
+.tankchar{
+    width:50%
+}
+.tankchar table, td{
+    border:1px solid #A49E8B;
+    border-collapse: collapse;
+}
+.tankchar table{
+    width:90%
+}
+.backbut:hover{
+    cursor: pointer;
+}
