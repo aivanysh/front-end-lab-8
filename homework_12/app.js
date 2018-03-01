@@ -4,7 +4,7 @@ document.getElementsByTagName('body')[0].onhashchange = function() {
     var x = location.hash;
     if(x!==''){
         for(j=0; j<tanks.length;j++){
-            if(('#'+tanks[j].model)== x){
+            if(('#'+tanks[j].model)=== x){
                 while (elbody.firstChild) {
                     elbody.removeChild(elbody.firstChild);
                 }
